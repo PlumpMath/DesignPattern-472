@@ -6,8 +6,8 @@ package factory.simplefactory;
 public class Tester {
     public static void main(String[] args){
         ProductFactory factory = ProductFactory.getFactory();
-        Product pa = factory.getProduct("ProductA");
-        Product pb = factory.getProduct("ProductB");
+        Product pa = factory.getProduct("ProductA1");
+        Product pb = factory.getProduct("ProductB1");
         System.out.println(pa.toString());
         System.out.println(pb.toString());
     }

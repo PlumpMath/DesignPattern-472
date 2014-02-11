@@ -6,6 +6,6 @@ package factory.simplefactory;
 public class ProductA implements Product {
     @Override
     public String toString() {
-        return "This is ProductA";
+        return "This is ProductA1";
     }
 }

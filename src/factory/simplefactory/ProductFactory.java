@@ -8,8 +8,8 @@ public class ProductFactory {
     private ProductFactory(){}
 
     public Product getProduct(String name){
-        if(name.equals("ProductA")) return new ProductA();
-        if(name.equals("ProductB")) return new ProductB();
+        if(name.equals("ProductA1")) return new ProductA();
+        if(name.equals("ProductB1")) return new ProductB();
         return null;
     }
 
